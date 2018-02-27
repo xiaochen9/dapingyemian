@@ -1,0 +1,36 @@
+/* top_slide_wrap */
+#cover{
+	width: 75%;
+	height: 550px;
+	position: absolute;
+	z-index: 999999999999999999999999 !important;
+	margin-left: 25%;
+}
+.top_slide_wrap{
+	width:100%;
+	height:550px;
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+	background: url("../images/bg_.gif");
+
+
+}
+.top_slide_wrap_ditu{
+	width: 25%;float: left;color: #14B9D7;position:absolute;top: 172px;left: 172px;
+	z-index: 10;font-size: 20px;
+	text-align: center;
+	line-height: 38px;
+	font-weight: bold;
+}
+.top_slide_wrap_ditu b{
+	font-family: 'electronicFont';
+	color: #14B9D7;
+	font-weight: bold;
+	font-size: 40px;
+	text-shadow: 1px 1px rgba(197, 223, 248,0.8),
+
+	2px 2px rgba(197, 223, 248,0.8),
+
+	3px 3px rgba(197, 223, 248,0.8);
+}
